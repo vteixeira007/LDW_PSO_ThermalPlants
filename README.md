@@ -50,25 +50,27 @@ Para a solução do problema, implementou-se o algoritmo LDW-PSO no Octave/Matla
 - Intervalos adotados de \( x \): \([196, 114, 332]\) e \([100, 50, 200]\)
 
 Os parâmetros para determinar o peso de inércia de decrescimento linear foram:
-- $\( W_{max} = 0.9 \)$
-- $\( W_{min} = 0.4 \)$
-- $\( \alpha = 50 \)$
+- \( W_{max} = 0.9 \)
+- \( W_{min} = 0.4 \)
+- \( \alpha = 50 \)
 
 ### Análises dos Resultados
 O processo de iteração pode ser observado na Figura 1. O número de iterações para esse problema pode ser otimizado, tendo em vista que por volta de 350 iterações, o valor da Função Objetivo é praticamente o mesmo (em torno de \( C = 93.37 \)).
 
-!Figura 1
+!Figura 100
 
 Na Tabela 2 são apresentados os valores de \( x1 \), \( x2 \), \( x3 \), \( PG \) e a função objetivo denominada como \( Y \). O tempo total para esse algoritmo solucionar esse problema foi de aproximadamente 29 minutos e 51 segundos.
 
 #### Tabela 2. Valores de \( x1 \), \( x2 \), \( x3 \), \( PG \) e \( Y \) considerando um peso de inércia por decrescimento linear
 | Run | \( x1 \) | \( x2 \) | \( x3 \) | \( PG \) | \( Y \) |
 |-----|----------|----------|----------|----------|---------|
+|  1  | 186.6782 | 114.0000 | 249.3218 | 550.0000 | 93.3749 |
+| ... | ...      | ...      | ...      | ...      | ...     |
 |  30 | 186.6782 | 114.0000 | 249.3218 | 550.0000 | 93.3749 |
 
 Na Figura 2 tem-se o gráfico de caixa, no qual se pode observar que o algoritmo manteve seus resultados bastante concentrados em torno de 93.3749 com apenas um outlier em 93.69.
 
-!Figura 2
+!Figura 200
 
 ## Conclusão
 Neste trabalho, apresentaram-se modos diferentes de trabalhar com a Otimização por Enxame de Partículas. Para a resolução do Problema 2, implementou-se o algoritmo LDW-PSO, cujos resultados mantiveram-se bastante concentrados em torno de 93.3749 com apenas um outlier em 93.69. As soluções adotadas apresentaram resultados satisfatórios, destacando a importância de delimitar bem o problema para evitar um número excessivo de iterações.
