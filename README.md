@@ -57,7 +57,7 @@ Os parâmetros para determinar o peso de inércia de decrescimento linear foram:
 ### Análises dos Resultados
 O processo de iteração pode ser observado na Figura 1. O número de iterações para esse problema pode ser otimizado, tendo em vista que por volta de 350 iterações, o valor da Função Objetivo é praticamente o mesmo (em torno de \( C = 93.37 \)).
 
-!Figura 100
+![Texto Alternativo](Figure_100.png)
 
 Na Tabela 2 são apresentados os valores de \( x1 \), \( x2 \), \( x3 \), \( PG \) e a função objetivo denominada como \( Y \). O tempo total para esse algoritmo solucionar esse problema foi de aproximadamente 29 minutos e 51 segundos.
 
@@ -70,7 +70,7 @@ Na Tabela 2 são apresentados os valores de \( x1 \), \( x2 \), \( x3 \), \( PG 
 
 Na Figura 2 tem-se o gráfico de caixa, no qual se pode observar que o algoritmo manteve seus resultados bastante concentrados em torno de 93.3749 com apenas um outlier em 93.69.
 
-!Figura 200
+![Texto Alternativo](Figure_200.png)
 
 ## Conclusão
 Neste trabalho, apresentaram-se modos diferentes de trabalhar com a Otimização por Enxame de Partículas. Para a resolução do Problema 2, implementou-se o algoritmo LDW-PSO, cujos resultados mantiveram-se bastante concentrados em torno de 93.3749 com apenas um outlier em 93.69. As soluções adotadas apresentaram resultados satisfatórios, destacando a importância de delimitar bem o problema para evitar um número excessivo de iterações.
