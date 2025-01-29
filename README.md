@@ -73,7 +73,7 @@ Na Figura 2 tem-se o gráfico de caixa, no qual se pode observar que o algoritmo
 ![Texto Alternativo](Figure_200.png)
 
 ## Conclusão
-Neste trabalho, apresentaram-se modos diferentes de trabalhar com a Otimização por Enxame de Partículas. Para a resolução do Problema 2, implementou-se o algoritmo LDW-PSO, cujos resultados mantiveram-se bastante concentrados em torno de 93.3749 com apenas um outlier em 93.69. As soluções adotadas apresentaram resultados satisfatórios, destacando a importância de delimitar bem o problema para evitar um número excessivo de iterações.
+Dadas as condições de restrição impostas, implementou se algoritmo no Octave/Matlab de otimização por enxame de partículas com Peso de Inércia com Decrescimento Linear (Linear Decreasing Weight Particle Swarm Optimization – LDW), cujos resultados do algoritmo mantiveram-se bastante concentrados em torno de 93,3749 com apenas um outlier. As solução adotada apresentou resultados satisfatório, destacando a importância de delimitar bem o problema para evitar um número excessivo de iterações.
 
 ## Referências
 - Coello, C. A., et al. (2004). "Handling multiple objectives with particle swarm optimization."
