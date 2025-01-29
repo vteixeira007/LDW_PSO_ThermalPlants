@@ -38,7 +38,7 @@ A restrição de igualdade é tratada adicionando um termo de penalidade à fun�
 
 $$ \text{FOB} = \sum_{i=1}^{3} C_i + \alpha \cdot \left( (P_{G1} + P_{G2} + P_{G3}) - 550 \right)^2 $$
 
-Onde \( \alpha \) é o fator de penalidade.
+Onde $\( \alpha \)$ é o fator de penalidade.
 
 ## Solução do Problema
 
